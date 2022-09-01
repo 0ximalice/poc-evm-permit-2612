@@ -4,7 +4,6 @@ import * as dotenv from 'dotenv'
 import { BigNumber } from '@ethersproject/bignumber'
 dotenv.config()
 
-// 0x58386b752D88d5EdC9C9FA48AeB81c710e87c5F1
 const spender = '0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45' // Uniswap's router02 on goerli
 const uniswapToken = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984' // Uniswap on goerli
 const deadline = ethers.constants.MaxUint256
