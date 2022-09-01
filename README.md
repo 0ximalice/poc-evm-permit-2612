@@ -1,4 +1,6 @@
-## Example: How relayed permit work
+## How relayed permit work (EIP-2612: permit – 712-signed approvals)
+
+ERC-20 approvals via secp256k1 signatures
 
 ```mermaid
 sequenceDiagram
